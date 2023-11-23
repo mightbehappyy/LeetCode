@@ -1,3 +1,5 @@
+package teste;
+
 class Solution {
     public static int finalValueAfterOperations(String[] operations) {
         int result = 0;

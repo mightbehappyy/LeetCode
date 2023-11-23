@@ -1,12 +1,14 @@
-public class Solution {
+package Answer1;
 
-    public static int mostWordsFound(String[] senteces) {
+public class Solution2 {
+
+    public static int mostWordsFound(String[] sentences) {
         int result = 0;
         int currentSum = 0;
-        for (int i = 0; i < senteces.length; i++) {
+        for (int i = 0; i < sentences.length; i++) {
             currentSum = 0;
-            for (int j = 0; j < senteces[i].length(); j++) {
-                if (senteces[i].charAt(j) == ' ') {
+            for (int j = 0; j < sentences[i].length(); j++) {
+                if (sentences[i].charAt(j) == ' ') {
                     currentSum++;
                 }
             }
