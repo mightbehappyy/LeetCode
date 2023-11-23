@@ -1,5 +1,6 @@
+package solution;
+
 import java.util.ArrayList;
-import java.util.List;
 
 public class Solution {
 
@@ -15,7 +16,7 @@ public class Solution {
                 } else if (command.charAt(i + 1) == 'a') {
                     result.add('a');
                     result.add('l');
-                    i += 2;
+                    i += 3;
                 }
 
             }
