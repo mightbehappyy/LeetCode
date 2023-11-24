@@ -8,6 +8,7 @@ public class Solution {
             result.append(s.split(" ")[i]);
             if (i != k - 1) {
                 result.append(" ");
+
                 System.out.println("espaço");
             }
         }
