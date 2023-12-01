@@ -23,6 +23,7 @@ public class App {
 
             }
         }
+        System.out.println(sortedArray);
         Collections.sort(sortedArray);
         for (int k = 0; k < s.length(); k++) {
             result.append(s.charAt(k));
@@ -30,7 +31,9 @@ public class App {
         for (int j = 0; j < sortedArray.size(); j++) {
             result.setCharAt(positions.get(j), sortedArray.get(j));
         }
-
+        System.out.println(sortedArray);
+        System.out.println(positions);
+        System.out.println(result);
         return result.toString();
     }
 }
