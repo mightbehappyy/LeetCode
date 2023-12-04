@@ -1,7 +1,8 @@
 import java.util.TreeMap;
 
 public class App {
-    public static void main(String[] args) throws Exception {
+    public static 
+    void main(String[] args) throws Exception {
         String[] names = { "Mary", "John", "Emma" };
         int[] heights = { 180, 165, 170 };
         sortPeople(names, heights);
