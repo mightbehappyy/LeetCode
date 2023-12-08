@@ -4,6 +4,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         char[] lista = { 'h', 'e', 'l', 'l', 'o' };
         reverseString(lista);
+        
     }
 
     public static void reverseString(char[] s) {
